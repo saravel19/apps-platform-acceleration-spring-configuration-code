@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: git
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://${user.home}/Week3/workspace/app-config/apps-platform-acceleration-spring-configuration-code
