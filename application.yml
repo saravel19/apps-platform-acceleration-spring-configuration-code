@@ -6,4 +6,4 @@ eureka:
     initial-instance-info-replication-interval-seconds: 6
 security:
   basic:
-    enabled:false
+    enabled: false
